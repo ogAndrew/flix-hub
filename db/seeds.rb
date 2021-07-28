@@ -136,5 +136,15 @@ Movie.create!([
     released_on: "2017-06-02",
     rating: "PG-13",
     total_gross: 821_847_012
+  },
+  {
+    title: "The Godfather",
+    description: 
+    %{
+      An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.
+    }.squish,
+    released_on: "1972-24-03",
+    rating: "R",
+    total_gross: 268_500_000
   }
 ])
