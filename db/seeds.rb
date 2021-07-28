@@ -143,7 +143,7 @@ Movie.create!([
     %{
       An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.
     }.squish,
-    released_on: "1972-24-03",
+    released_on: "1972-06-02",
     rating: "R",
     total_gross: 268_500_000
   }
