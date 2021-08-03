@@ -36,4 +36,8 @@ class Movie < ApplicationRecord
   def flop?
     total_gross < 225_000_000 || total_gross.blank?
   end
+
+  def average_stars
+    reviews.average(:stars).to_s || 0
+  end
 end
